@@ -12,6 +12,7 @@
 		F1877DD11E491BD900D2B259 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1877DCF1E491BD900D2B259 /* Main.storyboard */; };
 		F1877DD31E491BD900D2B259 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1877DD21E491BD900D2B259 /* Assets.xcassets */; };
 		F1877DD61E491BD900D2B259 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1877DD41E491BD900D2B259 /* LaunchScreen.storyboard */; };
+		F1877DDE1E491CE300D2B259 /* AlertTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1877DDD1E491CE300D2B259 /* AlertTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F1877DD21E491BD900D2B259 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1877DD51E491BD900D2B259 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1877DD71E491BD900D2B259 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1877DDD1E491CE300D2B259 /* AlertTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F1877DD21E491BD900D2B259 /* Assets.xcassets */,
 				F1877DD41E491BD900D2B259 /* LaunchScreen.storyboard */,
 				F1877DD71E491BD900D2B259 /* Info.plist */,
+				F1877DDD1E491CE300D2B259 /* AlertTableViewController.swift */,
 			);
 			path = clase5;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1877DCE1E491BD800D2B259 /* ViewController.swift in Sources */,
+				F1877DDE1E491CE300D2B259 /* AlertTableViewController.swift in Sources */,
 				F1877DCC1E491BD800D2B259 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +303,7 @@
 				F1877DDC1E491BD900D2B259 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
